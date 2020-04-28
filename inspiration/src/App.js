@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar'
-import MainContent from './components/MainContent'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
+import TodoItem from './components/TodoItem';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,8 @@ class App extends Component {
         <h1 className="logo">Cristiane Abreu</h1> 
       </header>
       <MainContent/>
+      <TodoItem/>
+      
       <Footer/>
       
     </div>
