@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import import './App.css';
+
 
 function Navbar(){
     return(
-        <div>
-        </div>
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        
     )
 }
 export default Navbar;
