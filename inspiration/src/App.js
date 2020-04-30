@@ -15,6 +15,9 @@ class App extends Component {
       </header>
       <MainContent/>
       <TodoItem/>
+      <TodoItem/>
+      <TodoItem/>
+      <TodoItem/>
       
       <Footer/>
       
